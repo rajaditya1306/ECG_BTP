@@ -9,8 +9,8 @@ Original file is located at
 ##### Mount Google Drive (Optional)
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
+# from google.colab import drive
+# drive.mount('/content/drive')
 
 """##### Import Libraries"""
 
@@ -22,7 +22,7 @@ import numpy as np
 
 """##### Import Data"""
 
-path = './drive/MyDrive/'
+path = './data/'
 x_train = np.load(path + 'x_train.npy', allow_pickle=True)
 y_train = np.load(path + 'y_train.npy', allow_pickle=True)
 x_test  = np.load(path + 'x_test.npy', allow_pickle=True)
